@@ -1,0 +1,300 @@
+var ctx = document.getElementById('evcsneigh');
+var myChart = new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+        labels: ['Ballard', 'Belltown', 'Capitol Hill', 'Cascade/Eastlake', 'Cedar Park/Meadowbrook', 'Columbia City','Downtown Commercial Core','Duwamish/SODO','First Hill','Georgetown','Greenwood/Phinney Ridge','Haller Lake','High Point','Laurelhurst/Sand Point','Licton Springs','North Beach/Blue Ridge','North Beacon Hill/Jefferson Park','North Capitol Hill'
+        ,'Northgate/Maple Leaf','Olympic Hills/Victory Heights','Pioneer Square/International District','Queen Anne','Ravenna/Bryant','Riverview','Seaview','Sunset Hill/Loyal Heights'
+    ,'University District','Wallingford','Wedgwood/View Ridge','West Junction'],
+        
+        datasets: [{
+            data: [6, 6, 12, 128, 4, 1,42,26,36,4,8,1,1,3,1,1,3,1,9,1,1,20,9,1,2,4,11,7,1,1],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.9)',
+                'rgba(54, 162, 235, 0.9)',
+                'rgba(255, 206, 86, 0.9)',
+                'rgba(75, 192, 192, 0.9)',
+                'rgba(153, 102, 255, 0.9)',
+                'rgba(255, 159, 64, 0.9)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        plugins: {
+    legend: {
+      display: false
+    }
+  },
+                responsive: true
+    }
+});
+
+
+
+var btx = document.getElementById('ageneigh');
+var myChart = new Chart(btx, {
+    type: 'bar',
+    data: {
+        labels: ['North Beacon Hill',
+        'Green Lake',
+        'Central Area/Squire Park',
+        'Georgetown',
+        'Fremont',
+        'North Beach/Blue Ridge',
+        'North Capitol Hill',
+        'Licton Springs',
+        'Montlake/Portage Bay',
+        'Queen Anne',
+        'Laurelhurst/Sand Point',
+        'Sunset Hill/Loyal Heights',
+        'Madrona/Leschi',
+        'First Hill',
+        'Magnolia',
+        'Haller Lake',
+        'Rainier Beach',
+        'University District',
+        'Whittier Heights',
+        'Duwamish/SODO',
+        'Greenwood/Phinney Ridge',
+        'Northgate/Maple Leaf',
+        'Interbay',
+        'Ballard',
+        'Wedgwood/View Ridge',
+        'Seaview',
+        'West Junction',
+        'Wallingford',
+        'Downtown Commercial Core',
+        'Broadview/Bitter Lake',
+        'Miller Park',
+        'Madison Park',
+        'Riverview',
+        'South Beacon Hill/NewHolly',
+        'High Point',
+        'Alki/Admiral',
+        'Judkins Park',
+        'Seward Park',
+        'Ravenna/Bryant',
+        'Columbia City',
+        'Highland Park',
+        'Belltown',
+        'Olympic Hills/Victory Heights',
+        'Beacon Hill',
+        'South Park',
+        'Capitol Hill',
+        'North Delridge',
+        'Cascade/Eastlake',
+        'Arbor Heights',
+        'Mt. Baker/North Rainier',
+        'Pioneer Square/International District',
+        'Cedar Park/Meadowbrook',
+        'Roxhill/Westwood'],
+        
+        datasets: [{
+            data: [36,
+                34,
+                32,
+                42,
+                31,
+                42,
+                33,
+                31,
+                40,
+                30,
+                39,
+                38,
+                37,
+                33,
+                35,
+                37,
+                41,
+                23,
+                37,
+                39,
+                38,
+                36,
+                34,
+                32,
+                41,
+                41,
+                37,
+                31,
+                39,
+                44,
+                39,
+                45,
+                38,
+                39,
+                32,
+                43,
+                35,
+                39,
+                34,
+                36,
+                39,
+                37,
+                37,
+                40,
+                38,
+                33,
+                39,
+                33,
+                42,
+                41,
+                46,
+                37,
+                38],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.9)',
+                'rgba(54, 162, 235, 0.9)',
+                'rgba(255, 206, 86, 0.9)',
+                'rgba(75, 192, 192, 0.9)',
+                'rgba(153, 102, 255, 0.9)',
+                'rgba(255, 159, 64, 0.9)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        plugins: {
+    legend: {
+      display: false
+    }
+  },
+                responsive: true
+    }
+});
+
+
+
+var inctx = document.getElementById('incneigh');
+var myChart = new Chart(inctx, {
+    type: 'line',
+    data: {
+        labels: ['North Beacon Hill',
+        'Green Lake',
+        'Central Area/Squire Park',
+        'Georgetown',
+        'Fremont',
+        'North Beach/Blue Ridge',
+        'North Capitol Hill',
+        'Licton Springs',
+        'Montlake/Portage Bay',
+        'Queen Anne',
+        'Laurelhurst/Sand Point',
+        'Sunset Hill/Loyal Heights',
+        'Madrona/Leschi',
+        'First Hill',
+        'Magnolia',
+        'Haller Lake',
+        'Rainier Beach',
+        'University District',
+        'Whittier Heights',
+        'Duwamish/SODO',
+        'Greenwood/Phinney Ridge',
+        'Northgate/Maple Leaf',
+        'Interbay',
+        'Ballard',
+        'Wedgwood/View Ridge',
+        'Seaview',
+        'West Junction',
+        'Wallingford',
+        'Downtown Commercial Core',
+        'Broadview/Bitter Lake',
+        'Miller Park',
+        'Madison Park',
+        'Riverview',
+        'South Beacon Hill/NewHolly',
+        'High Point',
+        'Alki/Admiral',
+        'Judkins Park',
+        'Seward Park',
+        'Ravenna/Bryant',
+        'Columbia City',
+        'Highland Park',
+        'Belltown',
+        'Olympic Hills/Victory Heights',
+        'Beacon Hill',
+        'South Park',
+        'Capitol Hill',
+        'North Delridge',
+        'Cascade/Eastlake',
+        'Arbor Heights',
+        'Mt. Baker/North Rainier',
+        'Pioneer Square/International District',
+        'Cedar Park/Meadowbrook',
+        'Roxhill/Westwood'],
+        
+        datasets: [{
+            data: [108496.35,
+                136162.82,
+                102263.0,
+                90300.0,
+                130480.48,
+                155739.63,
+                167577.18,
+                95797.0,
+                126348.0,
+                137538.14,
+                91866.0,
+                111987.0,
+                118248.0,
+                107443.96,
+                164796.0,
+                90426.02,
+                102979.26,
+                188577.18,
+                153540.0,
+                128184.0,
+                125821.66,
+                127590.58,
+                147858.21,
+                132468.0,
+                147432.0,
+                143598.91,
+                146748.0,
+                127646.75,
+                104856.0,
+                150927.19,
+                118305.0,
+                167492.0,
+                87300.0,
+                102729.61,
+                103761.97,
+                137513.32,
+                123131.0,
+                106476.0,
+                104159.0,
+                96353.24,
+                87300.0,
+                132709.06,
+                95556.0,
+                108496.35,
+                90300.0,
+                157577.18,
+                91509.65,
+                122927.31,
+                106839.01,
+                85552.0,
+                95810.76,
+                101759.0,
+                107411.92],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.9)',
+                'rgba(54, 162, 235, 0.9)',
+                'rgba(255, 206, 86, 0.9)',
+                'rgba(75, 192, 192, 0.9)',
+                'rgba(153, 102, 255, 0.9)',
+                'rgba(255, 159, 64, 0.9)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        plugins: {
+    legend: {
+      display: false
+    }
+  },
+                responsive: true
+    }
+});

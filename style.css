@@ -1,0 +1,58 @@
+#map {
+    height: 98%;
+    width:100%;
+    border: 4px solid #010409;
+    margin-left:1vw;
+  }
+  
+html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: scroll; 
+  }
+
+
+
+.mapcol{
+  padding-top:2.5vh;
+  height: 94.5vh;
+  width:100vw;
+  z-index: 1;
+  background-color:#010409;
+}
+
+.menu{
+    width:40vw;
+    border-radius: 2px;
+    height: 8vh;
+}
+
+.detailcol{
+  height:94.5vh;
+  background-color:#010409;
+  color: azure;
+  font-family: 'Fira Sans', sans-serif;
+  padding-left:1vw;
+}
+
+#inpnum{
+  width:80%;
+}
+
+
+#charger-icon{
+  height:30%;
+  margin-left:16.5vw;
+  margin-top:3vh;
+}
+
+.testlink{
+  color:black;
+  text-decoration:none;
+}
+
+.testlink:hover{
+  color:white;
+}

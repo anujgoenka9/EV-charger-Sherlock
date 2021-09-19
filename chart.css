@@ -1,0 +1,27 @@
+#container-fluid{
+    background-color: #010409;
+    text-align: center;
+  }
+
+#stattitle{
+    text-align: center;
+    color:azure;
+    text-align: center;
+}
+
+.mid{
+    text-align: center;
+    color:azure;
+}
+canvas{
+    margin: 0 auto;
+}
+
+.testlink{
+    color:white;
+    text-decoration:none;
+  }
+  
+  .testlink:hover{
+    color:black;
+  }

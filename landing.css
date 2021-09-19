@@ -1,0 +1,37 @@
+.fluid{
+  background-color: #010409;
+  text-align: center;
+  height:100vh;
+}
+
+#topic{
+  color: azure;
+  font-family: 'Fira Sans', sans-serif;
+  padding-top: 1vh;
+}
+
+.path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 5s linear infinite;
+  }
+  
+  @keyframes dash {
+    from {
+      stroke-dashoffset: 1000;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
